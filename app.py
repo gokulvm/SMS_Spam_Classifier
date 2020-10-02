@@ -45,7 +45,7 @@ def main():
     if st.button("About"):
         st.text("Used Algorithm : Multinomial Naive Bayes")
         st.text("Accuracy : 98.21%")
-        link = '[Code](https://github.com/gokulvm)'
+        link = '[Code](https://github.com/gokulvm/SMS_Spam_Classifier)'
         st.markdown(link, unsafe_allow_html=True)
        
 if __name__=='__main__':
